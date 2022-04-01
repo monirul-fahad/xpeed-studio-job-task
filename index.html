@@ -42,23 +42,31 @@
             />
           </svg>
         </div>
+        <input type="checkbox" name="" id="check">
+        <label for="check">
+         <i  class="material-icons checkbtn">
+           menu_open
+         </i>
+        </label>
+     
         <ul class="navbar-content">
-          <li>Home</li>
-          <li>About</li>
-          <li>Speaker</li>
-          <li>Schedule</li>
-          <li>News</li>
+          <li><a class="active" href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Speaker</a></li>
+          <li><a href="#">Schedule</a></li>
+          <li><a href="#">News</a></li>
           <i class="material-icons">search</i>
           <li>
-            <button class="navbar-btn">Book Tickets</button>
+            <button class="navbar-btn"> <i class="material-icons">chair</i> Book Tickets</button>
           </li>
-        </ul>
+        </ul>      
+
       </navbar>
     </header>
     <main>
       <section class="hero-section">
-        <div class="hero-text">
-          <div>
+        <div class="hero-text container">
+          <div class="hero-text-wrapper">
             <p># Technical Conference</p>
             <h1 class="hero-title">
               Where the <br />
@@ -69,13 +77,18 @@
               <li>Ghotam Hail, Bardway</li>
             </div>
             <div class="hero-cart">
-              <button>Purchase Tickets</button>
-              <p>Add to Calender</p>
+              <button> <i class="material-icons">chair</i> Purchase Tickets</button>
+              <p> <i class="material-icons">add_circle</i> Add to Calender</p>
             </div>
           </div>
           <img
             class="event-img"
             src="./Assets/header/elements/event.png"
+            alt=""
+          />
+          <img
+            class="speaker-img"
+            src="./Assets/header/speaker_event.png"
             alt=""
           />
           <img
@@ -98,6 +111,11 @@
             src="./Assets/header/elements/Shape -5.png"
             alt=""
           />
+          <img
+          class="shape-img-6"
+          src="./Assets/header/elements/Shape -2.png"
+          alt=""
+        />
         </div>
       </section>
 
@@ -105,21 +123,19 @@
         <div>
           <img
             class="fun-img-left"
-            src="./Assets/fun facts/left_image.png"
+            src="./Assets/fun_facts/left_image.png"
             alt=""
           />
           <img
             class="fun-img-right"
-            src="./Assets/fun facts/right_image.png"
+            src="./Assets/fun_facts/right_image.png"
             alt=""
           />
         </div>
         <div class="fun-texts container">
           <div class="first-texts">
-            <p>#Overview</p>
+            <p style="color: #f94743"># Overview</p>
             <h2>Get the latest info about Evenex</h2>
-            
-             
           </div>
           <div class="second-texts">
             <p>
@@ -128,12 +144,85 @@
               quaerat non?
             </p>
           </div>
-          <div class="third-texts">
+          <div class="second-texts">
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis
               quibusdam suscipit animi non doloremque, minima iure. Porro modi
               quaerat non?
             </p>
+          </div>
+        </div>
+
+        <div class="details-card">
+          <div class="details-card-item">
+            <h3>250+</h3>
+            <p>Journalists</p>
+          </div>
+          <div class="details-card-item">
+            <h3>37+</h3>
+            <p>Speakers</p>
+          </div>
+          <div class="details-card-item">
+            <h3>4300+</h3>
+            <p>Attendees</p>
+          </div>
+          <div class="details-card-item">
+            <h3>109+</h3>
+            <p>CEOs</p>
+          </div>
+          <img
+            class="details-card-item img-opacity"
+            src="./Assets/fun_facts/shape.png"
+            alt=""
+          />
+        </div>
+      </section>
+
+      <section class="counters">
+        <div>
+          <img
+            class="counters-img-left"
+            src="./Assets/fun_facts/left_image.png"
+            alt=""
+          />
+          <img
+            class="counters-img-right"
+            src="./Assets/fun_facts/right_image.png"
+            alt=""
+          />
+        </div>
+        <div class="counters-content container">
+          <div>
+            <img class="counters-image"
+             
+              src="./Assets/counters/front_img.png"
+              alt=""
+            />
+          </div>
+          <div class="next-speaker">
+            <h2>NEVER MISS ANOTHER SPEAKER ANNOUNCMENT</h2>
+            <div class="counters-time">
+              <div class="counters-time-item">
+                <h3>59</h3>
+                <p>DAYS</p>
+              </div>
+              <div style="text-align:center" class="counters-time-item colon-color">:</div>
+              <div class="counters-time-item">
+                <h3>23</h3>
+                <p>Hours</p>
+              </div>
+              <div  style="text-align:center" class="counters-time-item colon-color">:</div>
+              <div class="counters-time-item">
+                <h3>59</h3>
+                <p>MINUTES</p>
+              </div>
+              <div  style="text-align:center" class="counters-time-item colon-color">:</div>
+              <div class="counters-time-item">
+                <h3>59</h3>
+                <p>SECONDS</p>
+              </div>
+            </div>
+        <button class="navbar-btn"> <i class="material-icons">chair</i> Purchese Tickets</button>
           </div>
         </div>
       </section>
