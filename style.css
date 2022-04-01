@@ -53,8 +53,7 @@ body {
 }
 
 .hero-section {
-  /* background-image: url(./Assets/header/top_img.png); */
-  background-image: linear-gradient(90deg,rgba(212, 79, 17, 0.726),rgba(233, 8, 8, 0.712)),url(./Assets/header/top_img.png);
+  background-image: linear-gradient(90deg,rgba(254, 87, 9, 0.801),rgba(246, 34, 37, 0.863)),url(./Assets/header/top_img.png);
   height: 90vh;
   background-size: cover;
   background-repeat: no-repeat;
@@ -65,10 +64,11 @@ body {
   position: relative;
   
 }
-/* 
+
 .hero-text {
     padding-left: 420px;
-} */
+    color: white;
+}
 
 .hero-cart {
   display: flex;
@@ -103,4 +103,60 @@ body {
 position: absolute;
 right: 0;
 bottom: 0;
+}
+
+
+.shape-img-2{
+  position: absolute;
+  top: 150px;
+  right: 50%;
+}
+.shape-img-3{
+  position: absolute;
+  top: 120px;
+  right: 33%
+}
+.shape-img-4{
+  position: absolute;
+  top: 35%;
+  right: 40%;
+}
+.shape-img-5{
+  position: absolute;
+  bottom: 190px;
+  right: 60px
+}
+
+/* fun facts css */
+.fun-facts{
+ background-color: #f0f3f6;
+ height: 670px;
+ position: relative;
+}
+
+.fun-img-left{
+position: absolute;
+left: 0;
+}
+.fun-img-right{
+  position: absolute;
+  right: 0;
+}
+
+.fun-texts{
+  display: flex;
+  gap: 20px;
+}
+
+.first-texts{
+  flex: 33%;
+  background: #868;
+}
+.second-texts{
+  flex: 33%;
+  background: #342;
+}
+.third-texts{
+  flex: 33%;
+  background: #234;
 }
